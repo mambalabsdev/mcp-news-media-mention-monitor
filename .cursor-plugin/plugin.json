@@ -1,0 +1,31 @@
+{
+  "name": "mcp-news-media-mention-monitor",
+  "displayName": "News and Media Mention Monitor",
+  "version": "1.0.0",
+  "description": "MCP server for News and Media Mention Monitor. Watch Google News for companies, brands, people, or topics: one row per article with outlet, date, sentiment, and the publisher URL, only new articles per run. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-news-media-mention-monitor",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "news",
+    "media-monitoring",
+    "google-news",
+    "brand-mentions",
+    "pr"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "news",
+    "media-monitoring",
+    "google-news",
+    "brand-mentions",
+    "pr"
+  ],
+  "mcpServers": ".mcp.json"
+}

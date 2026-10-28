@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-news-media-mention-monitor",
+  "version": "1.0.0",
+  "description": "MCP server for News and Media Mention Monitor. Watch Google News for companies, brands, people, or topics: one row per article with outlet, date, sentiment, and the publisher URL, only new articles per run. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-news-media-mention-monitor": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "news",
+    "media-monitoring",
+    "google-news",
+    "brand-mentions",
+    "pr",
+    "apify",
+    "clay",
+    "competitor-monitoring"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/news-media-mention-monitor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-news-media-mention-monitor"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-news-media-mention-monitor"
+}
