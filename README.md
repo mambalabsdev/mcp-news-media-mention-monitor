@@ -2,6 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/@mambalabsdev/mcp-news-media-mention-monitor)](https://www.npmjs.com/package/@mambalabsdev/mcp-news-media-mention-monitor) [![license](https://img.shields.io/github/license/mambalabsdev/mcp-news-media-mention-monitor)](https://github.com/mambalabsdev/mcp-news-media-mention-monitor/blob/main/LICENSE)
 
+<a href="https://mcprush.com/to/mcp-news-media-mention-monitor?ref=badge"><img width="380" height="200" src="https://mcprush.com/badge/mcp-news-media-mention-monitor/card.svg" alt="News and Media Mention Monitor MCP server" /></a>
+
 An MCP server for the Mamba Labs News and Media Mention Monitor actor on Apify. Give it company names, brands, people, or topics. It reads Google News for each one and returns one row per article: headline, outlet, date, the publisher's own URL and domain, and a headline sentiment label. With only_new on, a repeat call with the same state_key returns only articles it has not returned before.
 
 ## What's Inside
