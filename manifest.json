@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-news-media-mention-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for News and Media Mention Monitor. Watch Google News for companies, brands, people, or topics: one row per article with outlet, date, sentiment, and the publisher URL, only new articles per run. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
